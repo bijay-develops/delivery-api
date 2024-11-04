@@ -1,8 +1,8 @@
 {
   "name": "delivery-api",
   "version": "1.0.0",
-  "main": "index.js", 
-    "scripts": {
+  "main": "index.js",
+  "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "@koa/router": "^13.1.0",
-    "koa": "^2.15.3"
-  }
+    "axios": "^1.7.7",
+    "koa": "^2.15.3",
+    "koa-ejs": "^4.3.0",
+    "koa-router": "^13.0.1"
+  },
+  "description": ""
 }
